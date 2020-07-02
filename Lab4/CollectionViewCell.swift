@@ -1,5 +1,5 @@
 //
-//  TableviewClass.swift
+//  CollectionViewCell.swift
 //  Lab4
 //
 //  Created by user165333 on 7/1/20.
@@ -7,10 +7,7 @@
 //
 
 import UIKit
-import Foundation
 
-class TableviewClass : UITableViewController {
-    
-    
+class CollectionViewCell: UICollectionViewCell {
     
 }
