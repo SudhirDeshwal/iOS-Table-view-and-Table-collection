@@ -15,6 +15,10 @@
 		99C35EA024AD5DA10014A120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C35E9E24AD5DA10014A120 /* LaunchScreen.storyboard */; };
 		99C35EAB24AD5DA10014A120 /* Lab4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C35EAA24AD5DA10014A120 /* Lab4Tests.swift */; };
 		99C35EB624AD5DA20014A120 /* Lab4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C35EB524AD5DA20014A120 /* Lab4UITests.swift */; };
+		99C35EC424AD5EE80014A120 /* TableviewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C35EC324AD5EE80014A120 /* TableviewClass.swift */; };
+		99C35EC624AD607E0014A120 /* TableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C35EC524AD607E0014A120 /* TableviewCell.swift */; };
+		99C35EC824AD61550014A120 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C35EC724AD61550014A120 /* CollectionViewController.swift */; };
+		99C35ECA24AD63170014A120 /* CollectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C35EC924AD63170014A120 /* CollectionviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		99C35EB124AD5DA20014A120 /* Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C35EB524AD5DA20014A120 /* Lab4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4UITests.swift; sourceTree = "<group>"; };
 		99C35EB724AD5DA20014A120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C35EC324AD5EE80014A120 /* TableviewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewClass.swift; sourceTree = "<group>"; };
+		99C35EC524AD607E0014A120 /* TableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewCell.swift; sourceTree = "<group>"; };
+		99C35EC724AD61550014A120 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		99C35EC924AD63170014A120 /* CollectionviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,9 @@
 		99C35E9224AD5DA00014A120 /* Lab4 */ = {
 			isa = PBXGroup;
 			children = (
+				99C35EC724AD61550014A120 /* CollectionViewController.swift */,
+				99C35EC324AD5EE80014A120 /* TableviewClass.swift */,
+				99C35EC524AD607E0014A120 /* TableviewCell.swift */,
 				99C35E9324AD5DA00014A120 /* AppDelegate.swift */,
 				99C35E9524AD5DA00014A120 /* SceneDelegate.swift */,
 				99C35E9724AD5DA00014A120 /* ViewController.swift */,
@@ -106,6 +117,7 @@
 				99C35E9C24AD5DA10014A120 /* Assets.xcassets */,
 				99C35E9E24AD5DA10014A120 /* LaunchScreen.storyboard */,
 				99C35EA124AD5DA10014A120 /* Info.plist */,
+				99C35EC924AD63170014A120 /* CollectionviewCell.swift */,
 			);
 			path = Lab4;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C35EC824AD61550014A120 /* CollectionViewController.swift in Sources */,
+				99C35ECA24AD63170014A120 /* CollectionviewCell.swift in Sources */,
+				99C35EC424AD5EE80014A120 /* TableviewClass.swift in Sources */,
 				99C35E9824AD5DA00014A120 /* ViewController.swift in Sources */,
 				99C35E9424AD5DA00014A120 /* AppDelegate.swift in Sources */,
+				99C35EC624AD607E0014A120 /* TableviewCell.swift in Sources */,
 				99C35E9624AD5DA00014A120 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
