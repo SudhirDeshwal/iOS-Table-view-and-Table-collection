@@ -13,7 +13,8 @@ class TableViewController: UITableViewController {
     
     let elements = ["Sudhir","Karan","Kajol","Sheela","Karan","Ram","Samir","Sney","Gokul","Riya","Ramesh","Suresh","Prem","Shivam","Anisha","Ajali"]
     let myiamges = [ #imageLiteral(resourceName: "s8") , #imageLiteral(resourceName: "s5") , #imageLiteral(resourceName: "s4") , #imageLiteral(resourceName: "s3") , #imageLiteral(resourceName: "s7") , #imageLiteral(resourceName: "s6") ]
-    let mystatus = [ #imageLiteral(resourceName: <#T##String#>) , #imageLiteral(resourceName: "follow") , #imageLiteral(resourceName: "remove-user") ]
+    let mystatus = [ #imageLiteral(resourceName: "add-user") , #imageLiteral(resourceName: "follow") , #imageLiteral(resourceName: "remove-user") ]
+    let myLocation = ["NY","LN","TO","NKG","Del","Van"]
    
 
     override func viewDidLoad() {
@@ -45,6 +46,8 @@ class TableViewController: UITableViewController {
         cell?.contentView.layer.cornerRadius = (cell?.contentView.frame.height)!/2
         cell?.myLabel.text = elements[Int.random(in: 0...15)]
         cell?.myImage.image = myiamges[Int.random(in: 0...5)]
+        cell?.mystatusimage.image = mystatus[Int.random(in: 0...2)]
+        cell?.myLocation.text = myLocation[Int.random(in: 0...5)]
         return cell!
     }
     
