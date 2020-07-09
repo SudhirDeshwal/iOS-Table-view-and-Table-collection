@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    
+    //my data
     let elements = ["Sudhir","Karan","Kajol","Sheela","Karan","Ram","Samir","Sney","Gokul","Riya","Ramesh","Suresh","Prem","Shivam","Anisha","Ajali"]
     let myiamges = [ #imageLiteral(resourceName: "s8") , #imageLiteral(resourceName: "s5") , #imageLiteral(resourceName: "s4") , #imageLiteral(resourceName: "s3") , #imageLiteral(resourceName: "s7") , #imageLiteral(resourceName: "s6") ]
     let mystatus = [ #imageLiteral(resourceName: "add-user") , #imageLiteral(resourceName: "follow") , #imageLiteral(resourceName: "remove-user") ]

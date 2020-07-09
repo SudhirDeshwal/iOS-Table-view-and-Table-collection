@@ -12,8 +12,11 @@ import Foundation
 
 class CollectionViewController: UICollectionViewController {
     
-    let elements = ["Sudhir","Karan","Kajol","Sheela","Karan","Ram","Samir","Sney","Gokul","Riya","Ramesh","Suresh","Prem","Shivam","Anisha","Ajali"]
+    
+    //my data
+    let elements = ["Sudh","Karan","Kajol","Sheel","Karan","Ram","Samir","Sney","Gokul","Riya","Rame","Sure","Prem","Shiva","Anis","Ajali"]
     let myiamges = [ #imageLiteral(resourceName: "s8") , #imageLiteral(resourceName: "s5") , #imageLiteral(resourceName: "s4") , #imageLiteral(resourceName: "s3") , #imageLiteral(resourceName: "s7") , #imageLiteral(resourceName: "s6") ]
+        let mystatus = [ #imageLiteral(resourceName: "add-user") , #imageLiteral(resourceName: "follow") , #imageLiteral(resourceName: "remove-user") ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +44,7 @@ class CollectionViewController: UICollectionViewController {
         cell?.layer.cornerRadius = 15
         cell?.myLabel.text = elements[Int.random(in: 0...15)]
         cell?.myImage.image = myiamges[Int.random(in: 0...5)]
+        cell?.mystatus.image = mystatus[Int.random(in: 0...2)]
         return cell!
     }
 
